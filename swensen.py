@@ -25,7 +25,7 @@ import datetime
 import pytz
 import pandas as pd
 from zipline.api import order_target_percent
-
+import numpy as np
 def initialize(context):
     
     set_long_only()
